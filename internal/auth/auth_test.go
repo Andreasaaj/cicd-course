@@ -42,7 +42,7 @@ func TestGetAPIKey(t *testing.T) {
 				"Authorization": []string{"ApiKey secret123"},
 			},
 			want:    "secret123",
-			wantErr: true, // Temp break tests. REMOVE AFTER
+			wantErr: false,
 		},
 		// 		{
 		// 			name: "extra spacing but still valid",
